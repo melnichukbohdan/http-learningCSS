@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lesson 3</title>
+</head>
+    <body>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <p>Name</p>
+                <input tabindex="1" type="text" name="username" >
+            </div>
+            <div>
+                <p>Password</p>
+                <input tabindex="2" type="password" name="userpass" >
+            </div>
+            <div>
+            <p>Phone</p>
+            <input tabindex="3" type="tel" name="phone" >
+            </div>
+            <div>
+                <p>Gender</p>
+                <div>
+                    <input tabindex="4" checked type="radio" name="gender" value="male"> Men
+                </div>
+                <div>
+                    <input tabindex="4" type="radio" name="gender" value="female"> Female
+                </div>
+            </div>
+            <div>
+                <p>Property</p>
+                <div>
+                    <div>
+                        <input tabindex="5" checked type="checkbox" name="bike" value="yes"> Bike
+                    </div>
+                    <div>
+                        <input tabindex="6" type="checkbox" name="car" value="yes"> Car
+                    </div>
+                    <div>
+                        <input tabindex="7" disabled type="checkbox" name="flat" value="yes"> Flat
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>Additional Information</p>
+                <textarea tabindex="8"name="text" ></textarea>
+            </div>
+            <div>
+                <p>Add photo</p>
+                <input tabindex="9" type="file">
+            </div>
+            <div>
+                <p>Favorite color</p>
+                <select tabindex="10" name="color">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="white">White</option>
+                    <option selected value="yellow">Yellow</option>
+                </select>
+            </div>
+            <div>
+                <p>Behavior</p>
+                <button tabindex="11" type="submit">Send</button>
+                <button tabindex="12" type="reset">Clean</button>
+            </div>
+        </form>
+    </body>
+</html>
