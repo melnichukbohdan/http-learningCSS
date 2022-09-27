@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block-1 {
+    width: 620px;
+    height: 120px;
+    line-height: 25px;
+}
+.span-as-block {
+    display: block;
+    width: 350px;
+}
+.link-as-block {
+    display: block;
+    width: 500px;
+    margin: 0 0 30px 0;
+}
+.block-2 {
+    height: 50px;
+}
+.block-inline {
+    display: inline-block;
+    margin: 0 20px 0 0 ;
+}
+.p-inline {
+    display: inline-block;
+    max-width: 500px;
+}
+.span-as-block-and-padding {
+    display: inline-block;
+    padding: 40px;
+}
+.link2 {
+    padding: 0 40px 0 0;
+}
+.span-footer {
+    padding: 40px;
+}
