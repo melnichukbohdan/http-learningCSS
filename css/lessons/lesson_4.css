@@ -1,0 +1,92 @@
+body {
+    background:linear-gradient(to bottom right,
+#e8e8e8 42%, #52a495 42.1% 42.2%, #e8e8e8 42.3% 55%, #52a495 55.1% 55.2%,  #e8e8e8 55.3%)
+}
+
+.page {
+    width: 650px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #a1b0aa;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 40px;
+}
+
+span {
+    display: block;
+}
+
+img {
+    width: 649px;
+    height: 432px;
+    border: 10px solid white;
+}
+
+.text0 {
+    font-size: 36px;
+    color: #273d46;
+    text-align: center;
+    padding: 20px;
+}
+
+.photo {
+    width: 650px;
+    height:433px;
+    box-shadow: 0 0 15px 10px #d7cece;
+}
+
+.text1, .text2, li {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.full_story {
+    width: 200px;
+    height: 40px;
+    padding: 14px 0px 0px 25px;
+    margin: 0 0 40px 0;
+    border-radius: 25px;
+    color: #e8e8e8;
+    text-transform: uppercase;
+    background: #52a495 url(../../img/icons/arrow_white.jpg.png) 85% 50% / 20px no-repeat;
+}
+
+.full_story > a {
+    color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+li {
+    background: url(../../img/icons/li.svg) left 50% no-repeat;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.li1 {
+    text-shadow: 1px 1px black;
+}
+
+.li2 {
+    color: #a2a2a2;
+    font-style: italic;
+}
+.li3 {
+    font-weight: bold;
+}
+.li4 {
+    text-decoration: line-through;
+    color: #a2a2a2;
+}
+
+
+
+
+
+
+
