@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    font-size: 18px;
+}
+
+li {
+    padding: 0 0 15px 25px;
+    background: url(../../img/icons/li.svg) 0 0 no-repeat;
+}
+
+.list li:first-child {
+    text-decoration: line-through;
+}
+
+.list li:first-child:hover {
+    text-decoration: none;
+}
+
+
+.list li:nth-child(2):hover {
+    color: red;
+    background: url(../../img/icons/li__red.png) 0 0 no-repeat;
+}
+
+.list li:nth-child(3) {
+    font-style: italic;
+}
+
+.list li:nth-child(3):hover {
+    font-style: normal;
+}
+
+.list li:last-child {
+    text-transform: uppercase;
+}
+.list li:last-child:hover {
+    text-transform: none;
+}
+
+.text-field {
+    display: block;
+    padding: 5px;
+    margin: 0 0 15px 0;
+    border: 1px solid #7fbed5;
+}
+.text-field:focus {
+    box-shadow: #52a495 0 0 10px 0;
+}
+
+
+.full_story {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    padding: 0 0 0 20px;
+    background: #9d9b9b url(../../img/icons/arrow_white.jpg.png) 85% 50% / 20px no-repeat;
+}
+
+.full_story:hover {
+    background-color: #3d5f6e;
+}
+
+.full_story:active {
+    background-color: grey;
+}
